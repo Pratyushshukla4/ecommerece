@@ -1,0 +1,174 @@
+.category{
+    display: flex;
+    width: 98vw;
+    height: 100ch;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+.categorywrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+.categoryrow1{
+    width: 100%;
+    height: 45%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.categoryrow2{
+    width: 100%;
+    height: 45%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.colom1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.colom1::before{
+    /* width: 100%;
+    height: 100%; */
+    width: 30%;
+    height: 55%;
+    content: "";
+    position: absolute;
+    background: url(https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center/cover;
+    /* background: url(/public/assests/g1.jpg) no-repeat center/cover; */
+    z-index: -1;
+    cursor: pointer;
+ 
+
+
+}
+.shirt{
+    font-size: 30px;
+    font-weight: 550;
+}
+.now{
+    box-shadow: 0px 0px 1px 1px #0b0b0b;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+
+justify-content: center;
+color: gray;
+width: 100px;
+height: 30px;
+font-weight: 500;
+margin-top: 5px;
+text-decoration: none;
+}
+.cc1{
+    z-index: 999;
+}
+.colom2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.colom2::before{
+    /* width: 100%;
+    height: 100%; */
+    width: 30%;
+    height: 55%;
+    content: "";
+    position: absolute;
+    background: url(https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center/cover;
+    /* background: url(/public/assests/g2.jpg) no-repeat center/cover; */
+    z-index: -1;
+    cursor: pointer;
+
+
+}
+.colom2:hover{
+    opacity: 0.6;
+}
+.colom1:hover{
+    opacity: 0.6;
+}
+.colom3:hover{
+    opacity: 0.6;
+}
+.colom11:hover{
+    opacity: 0.6;
+}
+.colom12:hover{
+    opacity: 0.6;
+}
+
+.colom3{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.colom3::before{
+    /* width: 100%;
+    height: 100%; */
+    width: 30%;
+    height: 55%;
+    content: "";
+    position: absolute;
+    background: url(https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500) no-repeat center/cover;
+    /* background: url(/public/assests/g3.jpg) no-repeat center/cover; */
+    z-index: -1;
+    cursor: pointer;
+
+
+}
+.colom11{
+    width: 45%;
+    height: 100%;
+    cursor: pointer;
+}
+.colom11::before{
+    /* width: 100%;
+    height: 100%; */
+    width: 45%;
+    height: 55%;
+    content: "";
+    position: absolute;
+    background: url(/public/assests/g3.jpg) no-repeat center/cover;
+    z-index: -1;
+
+
+}
+.colom12{
+    width: 45%;
+    height: 100%;
+    cursor: pointer;
+}
+.colom12::before{
+    /* width: 100%;
+    height: 100%; */
+    width: 45%;
+    height: 55%;
+    content: "";
+    position: absolute;
+    background: url(/public/assests/g1.jpg) no-repeat center/cover;
+    z-index: -1;
+
+
+}

@@ -1,0 +1,219 @@
+body{
+    overflow-x: hidden;
+}
+.cartshophead{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid blue; */
+    align-items: center;
+    justify-content: center;
+
+}
+.shoppingcartwrap{
+    /* border: 2px solid blue; */
+    width: 99%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.bag{
+    font-size: 30px;
+}
+
+.Shoppingblog{
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    height: 50px;
+}
+.contshoping{
+    /* border: 1px solid blue; */
+    width: 20%;
+    display: flex;
+    align-items: center;
+
+}
+.contshoping1{
+    font-size: 20px;
+    box-shadow: 0px 0px 2px 2px gray;
+    width: 55%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 500;
+    cursor: pointer;
+    
+}
+.centershop{
+    width: 40%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sblog{
+    font-size: 20px;
+    border-bottom: 2px solid gray;
+    margin-right: 5px;
+}
+.wish{
+    font-size: 20px;
+    border-bottom: 2px solid gray;
+    margin-left: 5px;
+}
+.checkout{
+    width: 20%;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shoppingbutton{
+    width: 100%;
+    height: 70vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+.bottumshopingleft{
+    width: 70%;
+    height: 100%;
+    /* border: 2px solid violet; */
+}
+.bottumshopingright{
+    width: 28%;
+    height: 80%;
+    /* border: 2px solid violet; */
+    box-shadow: 0px 0px 2px 2px grey;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+.sbltop{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    border-bottom: 1px solid gray;
+
+}
+.sbltopleft{
+    width: 20%;
+    /* border: 1px solid blue; */
+}
+.sbltopright{
+    width: 30%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sbltopcenter{
+    width: 40%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ppr{
+    font-size: 22px;
+    font-weight: 550;
+}
+.ccl{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+}
+.shoebname{
+    font-size: 20px;
+}
+.shoeimg{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.sblbuttom{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid blue; */
+}
+.qntity1{
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 40px;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 6px;
+
+}
+.number1{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  
+}
+.minum1 , .plus1{
+    font-size: 20px;
+    font-weight: 550;
+    cursor: pointer;
+    /* width: 20px; */
+}
+.rate{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.subtotal{
+    width: 70%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.sub{
+    font-size: 20px;
+}
+.total{
+    font-size: 20px;
+}
+.ordr{
+    font-size: 30px;
+}
+.chekoutnow2{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.now3{
+    width: 50%;
+    height: 100%;
+    box-shadow: 0px 0px 2px 2px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #0b0b0b;
+    cursor: pointer;
+}

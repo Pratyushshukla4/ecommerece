@@ -1,0 +1,56 @@
+body{
+    overflow-x: hidden;
+}
+.dresses{
+    width: 98vw;
+}
+
+.filter{
+    display: flex;
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 98%;
+    justify-content: space-between;
+    align-items: center;
+}
+.filterleft{
+    margin-left: 2%;
+}
+.filterright{
+    margin-right: 5%;
+}
+.filproduct{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.filtercolor{
+    width: 200px;
+    height: 30px;
+    /* border : 1px solid red; */
+    margin-right: 15px;
+}
+.colorbtn{
+    /* width: 100px; */
+    height: 35px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.filprobtn{
+    width: 120px;
+}
+/* .filclr{
+    font-size: 20px;
+} */
+
+.drassescenter{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    flex-wrap: wrap;
+
+}
+.headdress{
+    margin-left: 2%;
+}

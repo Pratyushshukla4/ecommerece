@@ -1,0 +1,91 @@
+.navabr{
+    width: 99vw;
+    height: 70px;
+    /* border: 2px solid red; */
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftnav{
+    width: 25%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.centernav{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    font-weight: 700;
+    /* font-size: 22px; */
+}
+.rightnav{
+    width: 25%;
+    height: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rgst{
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+}
+.singin{
+    font-size: 22px;
+    font-weight: 600;
+}
+.cart{
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+    
+}
+.optionnav{
+    width: 80px;
+    /* border: 2px solid red; */
+    /* width: 22px;; */
+    height: 30px;
+}
+.option{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.searchdiv{
+    border: 1px solid gray;
+    width: 210px;
+    height: 30px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+.search{
+    height: 98%;
+    border: none;
+    /* font-size: 17px; */
+}
+.search:focus{
+    outline: none;
+}
+.sicon{
+    /* margin-left: 10px; */
+}
